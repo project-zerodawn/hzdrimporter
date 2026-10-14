@@ -1,0 +1,31 @@
+{
+ "entries": [
+  {
+   "name": "<ENTRY_NAME>",
+   "key": "<LOCATOR_KEY_HEX>",
+   "orig_size": 0,
+   "orig_sha1": "<ORIGINAL_ENTRY_SHA1>",
+   "file": "<NEW_ENTRY_FILE>.bin",
+   "allow_grow": true
+  },
+  {
+   "name": "<LOWER_LOD_ENTRY_NAME>",
+   "find": {
+    "nv": 0,
+    "stride": 24,
+    "bbox": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+   },
+   "orig_size": 0,
+   "file": "<NEW_LOWER_LOD_FILE>.bin",
+   "allow_grow": true
+  }
+ ],
+ "cores": [
+  {
+   "name": "<ORIGINAL_CORE_NAME>.core",
+   "size": 0,
+   "orig_sha1": "<ORIGINAL_CORE_SHA1>",
+   "file": "<PATCHED_CORE_FILE>.core"
+  }
+ ]
+}
